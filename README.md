@@ -25,5 +25,11 @@ A paragraph prefixed with exclamation marks is handled as admonition:
 !!!! a warning
 ```
 
-They are rendered into `<div class="admonition admonition-note">` and
-so forth.
+They are rendered as follows:
+
+| Markdown Prefix | Rendered div                                  |
+|:--              |:--                                            |
+|!                | `<div class="admonition admonition-note">`    |
+|!!               | `<div class="admonition admonition-info">`    |
+|!!!              | `<div class="admonition admonition-tip">`     |
+|!!!!             | `<div class="admonition admonition-warning">` |
