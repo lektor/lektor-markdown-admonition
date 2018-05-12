@@ -19,10 +19,12 @@ setup(
     description=description,
     keywords = 'Lektor plugin markdown admonition static-site blog',
     license='BSD',
+    long_description=readme,
+    long_description_content_type='text/markdown',
     name='lektor-markdown-admonition',
     py_modules=['lektor_markdown_admonition'],
     url='http://github.com/lektor/lektor-markdown-admonition',
-    version='0.2',
+    version='0.3',
     classifiers=[
         'Environment :: Plugins',
         'Environment :: Web Environment',
