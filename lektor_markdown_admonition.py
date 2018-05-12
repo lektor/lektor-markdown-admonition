@@ -14,6 +14,8 @@ CLASSES = {
 
 
 class AdmonitionMixin(object):
+    name = 'Markdown Admonition'
+    description = u'Adds basic admonition tag support to Markdown.'
 
     def paragraph(self, text):
         match = _prefix_re.match(text)
