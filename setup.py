@@ -24,7 +24,7 @@ setup(
     name='lektor-markdown-admonition',
     py_modules=['lektor_markdown_admonition'],
     url='http://github.com/lektor/lektor-markdown-admonition',
-    version='0.3',
+    version='0.3.1',
     classifiers=[
         'Environment :: Plugins',
         'Environment :: Web Environment',
